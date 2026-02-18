@@ -73,19 +73,12 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-              <div className="absolute inset-0 bg-blue-600 dark:bg-blue-700 rounded-3xl transform rotate-6"></div>
-              <div className="absolute inset-0 bg-blue-500 dark:bg-blue-600 rounded-3xl transform -rotate-6"></div>
-              <div className="absolute inset-0 bg-blue-400 dark:bg-blue-500 rounded-3xl">
-                <img
-                  src="WhatsApp Image 2026-01-06 at 10.25.31 PM (1).jpeg"
-                 alt="Ahmad Farros"
-                 className="w-full h-full object-cover rounded-3xl"
-                 />
-                <div className="w-full h-full flex items-center justify-center text-white text-lg font-medium">
-                  
-                </div>
-              </div>
+            <div className="w-80 h-80 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden shadow-lg">
+              <img
+                src="WhatsApp Image 2026-01-06 at 10.25.31 PM (1).jpeg"
+                alt="Ahmad Farros"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>

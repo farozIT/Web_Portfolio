@@ -6,28 +6,28 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const portfolioItems = [
   {
     id: 1,
-    title: 'Project 1',
-    description: 'A brief description of project 1 and what it does.',
+    title: 'Video Editing Project',
+    description: 'Professional video editing project showcasing advanced editing techniques and visual effects.',
     image: 'https://via.placeholder.com/600x400',
-    tags: ['React', 'Tailwind', 'Node.js'],
+    tags: ['Video Editing', 'After Effects', 'Premiere Pro'],
     github: '#',
     demo: '#',
   },
   {
     id: 2,
-    title: 'Project 2',
-    description: 'A brief description of project 2 and what it does.',
+    title: 'Visual Design Work',
+    description: 'Creative visual design project featuring modern graphics and brand identity design.',
     image: 'https://via.placeholder.com/600x400',
-    tags: ['Vue', 'Firebase', 'SCSS'],
+    tags: ['Design Visual', 'Photoshop', 'Illustrator'],
     github: '#',
     demo: '#',
   },
   {
     id: 3,
-    title: 'Project 3',
-    description: 'A brief description of project 3 and what it does.',
+    title: 'Game Development',
+    description: 'Interactive game development project with engaging gameplay and stunning visuals.',
     image: 'https://via.placeholder.com/600x400',
-    tags: ['Next.js', 'TypeScript', 'MongoDB'],
+    tags: ['Game', 'Unity', 'C#'],
     github: '#',
     demo: '#',
   },
@@ -83,7 +83,7 @@ const Portfolio = () => {
           ))}
         </motion.div>
         
-        {/* Portfolio Grid */}
+        
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           initial={{ opacity: 0 }}
